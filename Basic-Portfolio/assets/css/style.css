@@ -168,7 +168,7 @@ h3 {
 
 #icons {
   padding: 10px 0px 0px 0px;
-  width:auto
+  width:auto;
   text-align: center;
 }
 
@@ -253,7 +253,7 @@ li {
 /*Use a descending max width for 'desktop first' sites. As the screen
 gets smaller, you override what you need to. */
 
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
 
   #headshot{
     float: left;
@@ -265,65 +265,193 @@ gets smaller, you override what you need to. */
   float: left;
   background-color: #ffffff;
   overflow: auto;
-  width: 350px;
+  width: 375px;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid #dddddd;
   padding: 25px
   }
 
-  #body-width {
-  margin: auto;
-  width:700px;
-  }
-  
-  #nav-width {
-    margin:auto;
-    width:700px;
+  #section-right {
+  float: left;
+  background-color: #ffffff;
+  width: 270px;
+  height: 140px;
   }
 
- nav {
-  padding-left: 400px;
+  #body-width {
+  margin: auto;
+  width:690px;  
   }
+
+  #icons {
+  padding: 10px 0px 0px 0px;
+  width:100%;
+  text-align: center;
+  }
+
+  nav {
+  font-family: 'Arial';
+  font-size: 16px;
+  color: #777777;
+/*  padding-top: 15px;
+  padding-bottom: 15px;*/
+  padding-left: 425px;
+  }
+
+  aside {
+  float: left;
+  width: 225px;
+  padding: 15px 26px 15px 26px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Georgia';
+  font-size: 28px;
+  }
+
+  header div{
+    width:690px;
+    margin: auto;
+  }
+  
+ /* #nav-width {
+    width:50px;
+  }*/
 
 }
 
-@media screen and (max-width: 768px) {
 
-  /*#headshot{
+@media (max-width: 768px) {
+
+  #headshot{
     float: left;
     margin: 0px 15px 15px 0px;
     width: 30%;
   }
 
   #section-left {
-  float: left;
+  float: none;
   background-color: #ffffff;
   overflow: auto;
-  width: 350px;
+  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 1px solid #dddddd;
   padding: 25px
   }
 
+  #section-right {
+  float: none;
+  margin: 0px 0px 20px 0px;
+  background-color: #ffffff;
+  height: 140px;
+  width: 100%;
+/*  margin-top: 20px;
+  margin-bottom: 20px;*/
+  border: 1px solid #dddddd;
+  text-align: left;
+/*  padding: 10px 20px 10px 20px;*/
+  }
+  
+  h3 {
+/*  font-family: "Georgia";*/
+  text-align: left;
+/*  font-size: 20px;
+  border-style: none none solid none;
+  border-bottom-color: #cccccc;
+  padding-bottom: 5px;
+  border-width: 2px;
+  border-bottom-color: #cccccc;
+  color: #4aaaa5;*/
+  }
+
+  #icons {
+/*  padding: 10px 0px 0px 0px;
+  width:auto;*/
+  text-align: left;
+  }
+
   #body-width {
   margin: auto;
-  width:700px;
   }
   
   #nav-width {
-    margin:auto;
-    width:700px;
+    margin: auto;
   }
 
  nav {
   padding-left: 400px;
-  }*/
+  }
 
 }
 
 
+
 @media (max-width: 640px) {
+
+  #headshot{
+    float: left;
+    margin: 0px 15px 15px 0px;
+    width: 100%;
+  }
+
+  #section-left {
+  float: none;
+  background-color: #ffffff;
+  overflow: auto;
+  width: 550px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+  padding: 25px
+  }
+
+  #section-right {
+  float: none;
+  background-color: #ffffff;
+  width: 270px;
+  height: 140px;
+  }
+
+  #body-width {
+  margin: auto;
+  width:550px;  
+  }
+
+  #icons {
+  padding: 10px 0px 0px 0px;
+  width:100%;
+  text-align: center;
+  }
+
+  nav {
+  font-family: 'Arial';
+  font-size: 16px;
+  color: #777777;
+/*  padding-top: 15px;
+  padding-bottom: 15px;*/
+  padding-left: 425px;
+  }
+
+  aside {
+  float: left;
+  width: 225px;
+  padding: 15px 26px 15px 26px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Georgia';
+  font-size: 28px;
+  }
+
+  header div{
+    width:690px;
+    margin: auto;
+  }
+  
+ /* #nav-width {
+    width:50px;
+  }*/
 
 }
